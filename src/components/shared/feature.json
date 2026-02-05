@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_shared_features",
+  "info": {
+    "displayName": "Feature",
+    "description": "A USP feature with icon, title, description"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "stat": {
+      "type": "string",
+      "required": true
+    },
+    "gradient": {
+      "type": "string",
+      "default": "from-emerald-500/20 to-teal-500/20"
+    },
+    "iconSvg": {
+      "type": "text",
+      "required": false
+    }
+  }
+}

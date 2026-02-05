@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_shared_products",
+  "info": {
+    "displayName": "Product Card",
+    "description": "Product information for homepage showcase"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "tagline": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "string",
+      "required": true
+    },
+    "range": {
+      "type": "string",
+      "required": true
+    },
+    "acceleration": {
+      "type": "string",
+      "required": true
+    },
+    "topSpeed": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": ["images"]
+    },
+    "slug": {
+      "type": "string",
+      "required": true
+    },
+    "gradient": {
+      "type": "string",
+      "default": "from-blue-500/20 to-cyan-500/20"
+    }
+  }
+}
