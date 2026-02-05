@@ -1,0 +1,28 @@
+{
+    "collectionName": "components_shared_gallery_items",
+    "info": {
+        "displayName": "Gallery Item",
+        "description": "A gallery image with title and category"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "category": {
+            "type": "string",
+            "required": true
+        },
+        "color": {
+            "type": "string",
+            "default": "from-blue-500/20 to-cyan-500/20"
+        },
+        "image": {
+            "type": "media",
+            "multiple": false,
+            "required": true,
+            "allowedTypes": ["images"]
+        }
+    }
+}

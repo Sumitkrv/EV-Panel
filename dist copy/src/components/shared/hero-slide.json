@@ -1,0 +1,28 @@
+{
+    "collectionName": "components_shared_hero_slides",
+    "info": {
+        "displayName": "Hero Slide",
+        "description": "A hero carousel slide with image and product info"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "subtitle": {
+            "type": "string",
+            "required": true
+        },
+        "specs": {
+            "type": "json",
+            "required": false
+        },
+        "image": {
+            "type": "media",
+            "multiple": false,
+            "required": true,
+            "allowedTypes": ["images"]
+        }
+    }
+}
